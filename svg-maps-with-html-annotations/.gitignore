@@ -1,0 +1,28 @@
+# Ignore les fichiers de configuration
+*.config.js
+
+# Ignore les fichiers de build
+/dist
+
+# Ignore les fichiers de dépendances
+/node_modules
+
+# Ignore les fichiers de cache
+/.cache
+
+# Ignore les fichiers de sauvegarde
+*.bak
+
+# Ignore les fichiers de logs
+*.log
+
+# Ignore les fichiers temporaires
+*.tmp
+
+# Ignore les fichiers de sauvegarde de l'éditeur
+.vscode/*.bak
+.vscode/*.tmp
+
+# Ignore les fichiers de sauvegarde de l'IDE
+.idea/*.bak
+.idea/*.tmp
