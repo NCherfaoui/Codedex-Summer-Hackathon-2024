@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { createRoot } from 'react-dom/client'
 import { Suspense, useState, useRef, useEffect, useLayoutEffect, useMemo } from 'react'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Canvas, useLoader } from '@react-three/fiber'
 import { SVGLoader } from 'three-stdlib'
 import { MapControls } from '@react-three/drei'
@@ -53,6 +54,7 @@ function App() {
         <Svg url="/map.svg" />
       </Suspense>
       <MapControls enableRotate={false} />
+      <SpeedInsights />
     </Canvas>
   )
 }
